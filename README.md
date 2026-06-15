@@ -114,3 +114,9 @@ Response:
   "message": "E-commerce API is running"
 }
 ```
+
+### Swagger Documentation
+
+GET `/api/swagger`
+
+This endpoint returns the API Swagger specification in JSON format. The Swagger file is also available at the project root as `swagger.json`.
