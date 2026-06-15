@@ -1,0 +1,14 @@
+{
+  "name": "ecommerce-eurostardany-api",
+  "version": "1.0.0",
+  "description": "In-memory e-commerce REST API with JWT auth and checkout rules",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0"
+  }
+}
