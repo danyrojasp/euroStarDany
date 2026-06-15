@@ -1,0 +1,31 @@
+meta {
+  name: Checkout
+  type: http
+  seq: 5
+}
+
+post {
+  url: {{baseUrl}}/api/checkout
+  body: json
+  auth: bearer
+}
+
+headers {
+  Content-Type: application/json
+}
+
+auth:bearer {
+  token: {{token}}
+}
+
+body:json {
+  {
+    "paymentMethod": "credit_card",
+    "items": [
+      {
+        "productId": 1,
+        "quantity": 2
+      }
+    ]
+  }
+}
